@@ -1,0 +1,5 @@
+docker compose -f mysql.yml -p nodejs-sql up -d
+
+f: file name
+-p: project name
+-d : detach, run as background
