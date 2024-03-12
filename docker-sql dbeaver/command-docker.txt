@@ -1,4 +1,13 @@
+install:
+vs code
+nodejs .xml
+docker
+mongoDB
+
+
 docker compose -f mysql.yml -p nodejs-sql up -d
+
+docker compose -p nodejs-mongdb up -d
 
 f: file name
 -p: project name
